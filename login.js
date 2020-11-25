@@ -15,7 +15,7 @@ function logar() {
 
     }
 
-    fetch("http://localhost:8080/login", cabecalho).
+    fetch("http://https://agendamento-front.herokuapp.com/login", cabecalho).
         then(res => res.json()).
         then(res => {
             localStorage.setItem("logado", JSON.stringify(res));
